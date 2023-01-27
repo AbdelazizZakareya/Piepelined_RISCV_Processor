@@ -1,0 +1,9 @@
+add x0, x0, x0 
+addi x5, x0, 4     
+lui x1, 5          
+auipc x2, 3        
+jalr x4, x5, 0         
+addi x5, x0, 9   
+
+
+      

@@ -1,0 +1,23 @@
+OCT 30, 1:00 PM:
+
+We conduct a meeting to distribute the roles on the project and plan for this milestone task.
+
+
+NOV 2, 8:00 PM:
+
+Implemented the Branch unit to handle Branch instructions 
+
+Edited Data memory to handle load instructions 
+
+NOV 4, 5:00 PM:
+
+Edited the main module to handle JAL, JALR, and AUIPC (add a 4*1 MUX)
+
+Wrote a test bench to test the implemented instructions 
+
+NOV 5, 10:00 PM:
+
+Wrote the Milestone report 
+
+
+

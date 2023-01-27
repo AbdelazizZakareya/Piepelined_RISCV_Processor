@@ -1,0 +1,8 @@
+Label1:add x0, x0, x0 
+addi x5, x0, 4     
+lui x1, 5          
+auipc x2, 3        
+jal x3, Label1       
+addi x5, x0, 9   
+
+      

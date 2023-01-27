@@ -1,0 +1,7 @@
+Label1:addi x1, x0, 0
+addi x2, x1, -2        
+Label2 :addi x2, x1, -1 
+beq x1, x2, Label1  
+blt x1, x2, Label1 
+bgeu x1, x2, Label2  
+bltu x1, x2, Label1 

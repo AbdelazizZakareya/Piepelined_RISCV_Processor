@@ -1,0 +1,18 @@
+Assembly:
+add x0, x0, x0
+equal:addi x1, x0, -5
+less:addi x2, x1, -1
+beq x1, x2, equal
+blt x1, x2, less
+bgeu x1, x2, less
+bltu x1, x2, less*/
+   
+
+Hex:
+mem[0]=32'b0000000_00000_00000_000_00000_0110011; 
+mem[1]=32'hffb00093 ;                               
+mem[2]=32'hfff08113 ;                               
+mem[3]=32'hfe208ce3 ;                                
+mem[4]=32'hfe20cce3 ;                               
+mem[5]=32'hfe20fae3 ;                               
+mem[6]=32'hfe20e8e3;    

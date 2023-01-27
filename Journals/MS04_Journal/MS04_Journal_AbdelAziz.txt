@@ -1,0 +1,13 @@
+NOV 19, 6:00 PM:
+
+We conduct a meeting to distribute the roles on the project and plan for this milestone task.
+
+NOV 22, 2:00 PM:
+
+- Handle Data Hazard
+- Handle Control Hazard 
+
+NOV 23, 3:30 PM:
+- Work in integration and resolve Errors 
+- Test the 40 instructions 
+

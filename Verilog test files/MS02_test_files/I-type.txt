@@ -1,0 +1,29 @@
+Assembly:
+
+add x0, x0, x0
+addi x1, x0, 3     #x1 = 3
+slti x2, x1, -4    #x2 = 0
+sltiu x3, x1, 5    #x3 = 1
+sltiu x4, x1, -5   #x4 = 1
+xori x5, x1, -3    #x5 = -2
+ori x6, x1, 4      #x6 = 7
+andi x7, x1, -1    #x7 = 3
+slli x8, x1, 6     #x8 = 192
+srli x9, x1, 2     #x9 = 0.75 = 0
+addi x1, x0, -3    #x1 = -3
+srai x10, x1, 2    #x10 = -1
+
+
+Hex:
+mem[0]=32'b0000000_00000_00000_000_00000_0110011 ;  
+mem[1]=32'h00300093 ;                               
+mem[2]=32'hffc0a113 ;                               
+mem[3]=32'h0050b193 ;                               
+mem[4]=32'hffb0b213 ;                              
+mem[5]=32'hffd0c293 ;                               
+mem[6]=32'h0040e313 ;                               
+mem[7]=32'hfff0f393 ;                               
+mem[8]=32'h00609413 ;                              
+mem[9]=32'h0020d493 ;  
+mem[10]=32'hffd00093 ;                        
+mem[11]=32'h4020d513 ; 

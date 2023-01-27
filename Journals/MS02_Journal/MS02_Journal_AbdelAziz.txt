@@ -1,0 +1,22 @@
+OCT 30, 8:00 PM:
+
+We conduct a meeting to distribute the roles on the project and plan for this milestone task.
+
+
+NOV 2, 4:00 PM:
+
+Rewrote the immediate module to handle imm instructions
+
+Edited Data memory and Register file to handle store instructions 
+
+NOV 4, 3:30 PM:
+
+Added the define, ALU, and other supporting codes
+
+Rewrote the Control Unit to accommodate all instructions
+
+Collect all the units and modules in one project and debug it
+
+NOV 5, 11:00 PM:
+
+Test and verify the functionality of the 40 instructions and handled some errors 
